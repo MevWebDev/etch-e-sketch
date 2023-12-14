@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     background-color: #ededed;
     font-family: 'Roboto', sans-serif;
+    gap:2rem;
 }
 #header{
     font-weight: bolder;
@@ -16,7 +17,8 @@ body{
     width:500px;
     height:500px;
     background-color: white;
-     margin-right:9rem; 
+    margin-right:20rem; 
+    
     
    
     
@@ -24,7 +26,7 @@ body{
 }
 .section{
     display:flex;
-    gap:1rem;
+    gap:8rem;
     
 }
 #settings{
@@ -49,13 +51,16 @@ button{
     padding:10px 20px;
     font-size:1rem;
     border-radius: 5px;
-    border:1px solid black;
+    border:0.5px solid black;
+    transition: transform 0.1s ease-in-out;
+    width:200px;
 }
 button:hover{
-    padding:12px 22px;
-    font-size:1.1rem;
+    transform: scale(1.05);
+    
 
 }
+
 button:active{
     background-color: black;
     color:white;
@@ -113,4 +118,8 @@ button:active{
   #color:-moz-color-swatch {
     border-radius: 15px;
     border: none;
+  }
+  #drawButton{
+    color: #ebebeb;
+    background-color: #333333;
   }
