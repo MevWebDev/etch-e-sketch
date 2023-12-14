@@ -26,7 +26,6 @@ colorButton.addEventListener('input', (event) => {
 const eraser = document.querySelector('#eraser');
 eraser.addEventListener('click', () => {
     eraserON = true;
-    
     console.log(eraserON)
        
 })
@@ -46,17 +45,15 @@ function changeColor(cell){
 }
 function startDrawing(cell){
     isDrawing = true;
-    if(startRandomColor===true){
+    
+    if(startRandomColor===true && eraserON===false){
         randomColor()
     }
     
     if (cell.classList.contains('colored')){
         return;
     }
-    if (eraserON === true){
-        cell.classList.remove('colored')
-        color = 'white';
-    }
+    
     cell.classList.add('colored');
     changeColor(cell)
     console.log(isDrawing)
@@ -69,7 +66,7 @@ function draw(cell){
         console.log("colored")
         return;
     }
-    if(startRandomColor===true){
+    if(startRandomColor===true && eraserON===false){
         randomColor()
     }
     console.log(isDrawing)
