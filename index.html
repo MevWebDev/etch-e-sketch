@@ -3,15 +3,16 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Etch-a-sketch</title>
       <link rel="stylesheet" href="style.css">
       <script defer src="script.js"></script>
    </head>
    <body draggable="false">
+    
       <div id="header">Etch-a-sketch</div>
       <section class ='section'>
          <div id="settings">
-            <input type="color" id="color">
+            <input type="color" value ="#333333" id="color">
             <button id ="drawButton">Draw</button>
             <button id ="clearButton">Clear</button>
             <button id ="randomColor">Random Color</button>
@@ -24,6 +25,10 @@
          <div id="grid" draggable="false">
          </div>
       </section>
-      <h3>Szymon Grysiewicz</h3>
+      <div id="footer">
+        <p>Copyright © 2023 MevWebDev</p>
+        <a href="https://github.com/MevWebDev" target="_blank"><img src="/src/github-mark.svg" alt=""></img></a>
+    </div>
+
    </body>
 </html>
