@@ -2,6 +2,9 @@ Etch-a-Sketch Online
 
 Bring back the nostalgia of the classic Etch-a-Sketch toy with this web-based version!  Draw lines, create patterns, and let your imagination flow on a digital grid.
 
+Check it live:
+mev.pxseu.com/etch-e-sketch
+
 Features
 
   - Intuitive Drawing: Effortlessly draw lines across the grid using your mouse.
@@ -11,7 +14,7 @@ Features
 
 Getting Started
 
-  - Visit the website mev.pxseu.com
+  - Visit the website mev.pxseu.com/etch-e-sketch
   - Start drawing! Drag your mouse to create lines.
   - Press the "Clear" to clear a board and start a new drawing.
 
