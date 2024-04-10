@@ -4,10 +4,10 @@ Bring back the nostalgia of the classic Etch-a-Sketch toy with this web-based ve
 
 Features
 
-  Intuitive Drawing: Effortlessly draw lines across the grid using your mouse.
-  Adjustable Grid Size: Customize the size of the grid for more intricate or bolder designs.
-  Color Customization: Add a splash of color with selectable line colors.
-  Rainbow Mode: Draw with a splash of color! Activate Rainbow Mode to have each line change to a random, vibrant color as you draw. This adds a fun and dynamic element to your Etch-a-Sketch creations.
+  - Intuitive Drawing: Effortlessly draw lines across the grid using your mouse.
+  - Adjustable Grid Size: Customize the size of the grid for more intricate or bolder designs.
+  - Color Customization: Add a splash of color with selectable line colors.
+  - Rainbow Mode: Draw with a splash of color! Activate Rainbow Mode to have each line change to a random, vibrant color as you draw. This adds a fun and dynamic element to your Etch-a-Sketch creations.
 
 Getting Started
 
