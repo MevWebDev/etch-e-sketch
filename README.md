@@ -11,8 +11,8 @@ Features
 
 Getting Started
 
-  Visit the website mev.pxseu.com
-  Start drawing! Drag your mouse to create lines.
-  Press the "Clear" to clear a board and start a new drawing.
+  - Visit the website mev.pxseu.com
+  - Start drawing! Drag your mouse to create lines.
+  - Press the "Clear" to clear a board and start a new drawing.
 
 Design inspired by Michał Osman
